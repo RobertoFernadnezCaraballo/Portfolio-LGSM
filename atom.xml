@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://robertofernadnezcaraballo.github.io/Portfolio-LGSM/">
+<id>https://robertofernadnezcaraballo.github.io/Portfolio-LGSM/</id>
+<title>Viajes y más atom</title>
+<updated>2023-12-12T09:10:00+01:00</updated>
+<link rel="alternate" href="https://robertofernadnezcaraballo.github.io/Portfolio-LGSM/atom.xml"/>
+<author>
+<name>Roberto Fernandez Caraballo</name>
+<email>fecaro_aliesma2324@iesmedinaazahara.es</email>
+</author>
+<category term="Portfolio Robertofc"/>
+<contributor>
+<name>otro Autor</name>
+<email>otro@gmail.com</email>
+</contributor>
+<logo>fotos/base1.jpg</logo>
+<entry>
+<id>https://robertofernadnezcaraballo.github.io/Portfolio-LGSM/</id>
+<title>Información sobre GBD y LGSM</title>
+<updated>2023-12-12T09:10:00+01:00</updated>
+<author>
+<name>Roberto Fernandez Caraballo</name>
+<email>fecaro_aliesma2324@iesmedinaazahara.es</email>
+</author>
+<summary>En este portfolio encontraras informacion sobre GBD y LGSM</summary>
+<link rel="alternate" href="https://robertofernadnezcaraballo.github.io/Portfolio-LGSM/"/>
+</entry>
+</feed>

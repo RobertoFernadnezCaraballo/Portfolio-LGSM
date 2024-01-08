@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Portfolio RFC</title>
+<link> https://robertofernadnezcaraballo.github.io/Portfolio-LGSM/</link>
+<description> portfolio asignaturas 1-asir </description>
+<category>educacion/clases/1-asir</category>
+<copyright>1º ASIR - LMSGI</copyright>
+<language>es-es</language>
+<lastBuildDate>Mon, 08 Jan 2024 20:15:00 +0100 </lastBuildDate>
+<webMaster>fecaro_aliesma2324@iesmedinaazahara.es</webMaster>
+<item>
+<title>Base de datos(GBD)</title>
+<description>
+En este artículo encontrará información sobre base de datos
+</description>
+<link>file:///home/usuario/Escritorio/LGSM/basededatos.html</link>
+<author>fecaro_aliesma2324@iesmedinaazahara.es</author>
+<category>base de datos</category>
+<pubDate>Mon, 08 Jan 2024 20:15:00 +0100</pubDate>
+</item>
+<item>
+<title>lenguaje de marcas (LGSM)</title>
+<description>En este artículo encontrará información sobre lenguaje de marcas</description>
+<link>file:///home/usuario/Escritorio/LGSM/lenguajedemarcas.html</link>
+<author>fecaro_aliesma2324@iesmedinaazahara.es</author>
+<category>lenguaje de marcas</category>
+<pubDate>Mon, 08 Jan 2024 20:15:00 +0100</pubDate>
+</item>
+</channel>
+</rss>

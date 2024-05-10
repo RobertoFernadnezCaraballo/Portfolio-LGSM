@@ -12,7 +12,7 @@ html {
 }
 
 #inicio {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/Users/iruta/Desktop/Proyecto\ lenguaje\ de\ marcas/fotos/inicio.png");
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../fotos/inicio.png");
     background-size: cover;
     background-position: center center;
     height: 100vh;

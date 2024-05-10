@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/EstiloLGSM.css">
+    <title>Portfolio RFC</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>RFC</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="../index.html" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="../index.html"  onclick="seleccionar(this)">YO</a></li>
+                            <li><a href="../index.html"  onclick="seleccionar(this)">ESTUDIOS</a></li>
+                            <li><a href="../paginas/Proyectos.html"  onclick="seleccionar(this)">PROYECTOS</a></li>
+                            <li><a href="../index.html"  onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.instagram.com/robertofdez._/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/iru.iru.564/?locale=es_ES" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@robertofdez._" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">LENGUAJE DE MARCAS</p>
+                <h2>Estos son mis <span>PROYECTOS</span></h2>
+                <p class="descripcion">Los lenguajes de marcas son la columna vertebral de la comunicación en la era digital. Con herramientas como HTML y XML, podemos dar forma y estructura a la información de manera efectiva.</p>
+
+               
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../fotos/proyectoxml.png" alt="">
+                <div class="info">
+                    <h4>RA1 Diseño de un fichero XML</h4>
+                    <p>Se Inventa un contexto en el que tenga sentido usar un fichero XML</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../fotos/portfolio.png" alt="">
+                <div class="info">
+                    <h4>Portfolio</h4>
+                    <p>Consiste en construir una página web utilizado lo aprendido de html y css. </p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../fotos/rss-vs-atom.jpg" alt="">
+                <div class="info">
+                    <h4>Sindicacion de Atom y RSS</h4>
+                    <p>En esta tarea se trata de incluir la posibilidad de sindicación por Atom y RSS a tu portfolio.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../fotos/xslt.png" alt="">
+                <div class="info">
+                    <h4> Generar código HTML a partir de un archivo XML</h4>
+                    <p>En esta práctica debes crear un archivo XSLT que transforme parte del archivo XML </p>
+                </div>
+            </div>
+           
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../fotos/xquery.png" alt="">
+                <div class="info">
+                    <h4>Diseño de consultas sobre la base de datos del proyecto</h4>
+                    <p>Se trata de implementar algunas consultas sobre la base de datos que has desarrollado para el proyecto SGBD. Pero con Xquery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- SECCION FOOTER -->
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Roberto Fernandez Caraballo. Todos los derechos reservados.</p>
+         <div class="redes">
+            <a href="https://www.instagram.com/robertofdez._/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/iru.iru.564/?locale=es_ES" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.tiktok.com/@robertofdez._" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="../rss.xml"><img width="50"  src="../fotos/rss.png" alt=""></a> 
+            <a href="../atom.xml"><img width="30" src="../fotos/aton.png" alt=""></a>
+      </div>
+     </footer>
+
+    <script src="../java/javaindex.js"></script>
+</body>
+
+</html>

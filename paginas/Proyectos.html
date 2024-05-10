@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="../css/EstiloProyectos.css">
+        <title>Portfolio RFC</title>
+    </head>
+    <body>
+        <!-- inicio -->
+         <section id="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="contenidoheader">
+                        <h1>RFC</h1>
+                        <nav id="nav" class="">
+                            <ul id="links">
+                                <li><a href="../index.html" onclick="seleccionar(this)">INICIO</a></li>
+                                <li><a href="../index.html"  onclick="seleccionar(this)">YO</a></li>
+                                <li><a href="../index.html"  onclick="seleccionar(this)">ESTUDIOS</a></li>
+                                <li><a href="#proyectos"  onclick="seleccionar(this)">PROYECTOS</a></li>
+                                <li><a href="../index.html"  onclick="seleccionar(this)">CONTACTO</a></li>
+                            </ul>
+                        </nav>
+                         <!--  responsive -->
+                        <div id="icono-nav" onclick="responsiveMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                         <!-- iconos redes sociales -->
+                        <div class="redes">
+                            <a href="https://www.instagram.com/robertofdez._/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/iru.iru.564/?locale=es_ES" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.tiktok.com/@robertofdez._" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </header>
+                <div class="presentacion">
+                    <p class="bienvenida">Proyectos</p>
+                    <h2> <span>Lenguaje De Marcas</span> Y <span>Gestion De Base De Datos</span></h2>
+                    <p class="descripcion">
+
+                        En este curso, exploraremos dos pilares fundamentales en la era digital: el <b>Lenguaje de Marcas</b> y la <b>Gestión de Bases de Datos</b>.
+                        
+                       El Lenguaje de Marcas nos sumergirá en la creación de páginas web efectivas, cubriendo desde HTML y CSS hasta JavaScript para añadir interactividad.
+                        
+                        Por otro lado, la Gestión de Bases de Datos nos adentrará en el mundo de la organización y recuperación eficiente de información, abordando el modelado de datos, SQL y la administración de bases de datos.
+                        
+                        Estas habilidades son esenciales en carreras relacionadas con el desarrollo web, análisis de datos y gestión de proyectos tecnológicos, proporcionando una base sólida para enfrentar los desafíos del mundo digital.</p>
+                   
+                </div>
+            </div>
+         </section>
+    
+         <!-- estudios -->
+         <section id="estudios">
+            <h3 class="titulo-seccion">Asignaturas</h3>
+            <div class="fila">
+                <div class="estudio">
+                    <span class="icono"><i class="fa-solid fa-code"></i></span>
+                    <h4>GESTION DE BASE DE DATOS</h4>
+                    <hr>
+                    <ul class="estudios-tag">
+                        <li>Modelado de datos bases de datos relacionales</li>
+                        <li>Consulta y manipulación </li>
+                        <li>Normalización </li>
+                        <li>Administración y seguridad </li>
+                    </ul>
+                    <br/>
+                   <p>En cuanto a la asignatura de Gestión de Bases de Datos, se abordará el diseño de esquemas de base de datos y la realización de consultas mediante SQL, así como los principios de la normalización de bases de datos. También se explorará la administración y seguridad e integridad de bases de datos.</p>
+                    </hr>
+                    <a href="../paginas/GBD.html">Ver Mi Trabajo</a>
+                </div>
+                <div class="estudio">
+                    <span class="icono"><i class="fa-solid fa-code"></i></span>
+                    <h4>LENGUAJE DE MARCAS</h4>
+                    <hr>
+                    <ul class="estudios-tag">
+                        <li>Creación de estructuras web con HTML</li>
+                        <li>Edicion de XML</li>
+                        <li>Interactividad con lenguajes de marcas</li>
+                        <li>Transformacion XML</li>
+                    </ul>
+                    <br/>
+                    <p>En la asignatura de Lenguaje de Marcas, los estudiantes aprenderán a crear la estructura básica de páginas web utilizando HTML, aplicar estilos visuales mediante CSS y aprender sobre xml y todas las formas de utilizarlo.</p>
+                    </hr>
+                    <a href="../paginas/LenguajeMarcas.html">Ver Mi Trabajo</a>
+                </div>
+            </div>
+
+         </section>
+
+         <!-- contacto -->
+         <section id="contacto">
+                <h3 class="titulo-seccion">Contactame Ahora</h3>
+                <div class="contenedor-form" >
+                    <form action="">
+                        <div class="fila mitad">
+                            <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                            <input type="text" placeholder="Direccion de Email" class="input-mitad">
+                        </div>
+                        <div class="fila">
+                            <input type="text" placeholder="Tema..." class="input-full">
+                        </div>
+                        <div class="fila">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje..." class="input-full"></textarea>
+                        </div>
+                        <input type="submit" value="Enviar" class="btn-enviar">
+                    </form>
+                </div>           
+         </section>
+
+         <!-- Footer -->
+         <footer>
+            <p>&copy; 2024 Roberto Fernandez Caraballo. Todos los derechos reservados.</p>
+             <div class="redes">
+                <a href="https://www.instagram.com/robertofdez._/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/iru.iru.564/?locale=es_ES" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.tiktok.com/@robertofdez._" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="../rss.xml"><img width="50"  src="../fotos/rss.png" alt=""></a> 
+                <a href="../atom.xml"><img width="30" src="../fotos/aton.png" alt=""></a>
+          </div>
+         </footer>
+         <script src="../java/javaindex.js"></script>
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>

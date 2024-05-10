@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/EstiloGBD.css">
+    <title>Portfolio RFC</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>RFC</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="../index.html" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="../index.html"  onclick="seleccionar(this)">YO</a></li>
+                            <li><a href="../index.html"  onclick="seleccionar(this)">ESTUDIOS</a></li>
+                            <li><a href="../paginas/Proyectos.html"  onclick="seleccionar(this)">PROYECTOS</a></li>
+                            <li><a href="../index.html"  onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.instagram.com/robertofdez._/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/iru.iru.564/?locale=es_ES" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@robertofdez._" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">GESTION DE BASE DE DATOS </p>
+                <h2>Estos son mis <span>PROYECTOS</span></h2>
+                <p class="descripcion">Las bases de datos son sistemas que almacenan y organizan datos de manera estructurada. Tienen funciones como almacenamiento, recuperación y actualización de datos, así como gestión de la concurrencia y seguridad. Se usan en aplicaciones empresariales, web, análisis de datos y sistemas geográficos, entre otros, para almacenar, gestionar y analizar información de manera eficiente y segura</p>
+
+               
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div  class="proyecto" >
+                <div class="overlay"></div>
+                <img src="../fotos/Basedatos.png" alt="">
+                <div class="info">
+                    <h4 ><a href="https://docs.google.com/document/d/1nkBQJz7_OeEf7xbBexlgL6cVthn9bR0BB8KrIVvKpVM/edit?usp=sharing"> Diseño de una base de datos</a></h4>
+                    <p>Solo esta este proyecto porque abarca todo lo aprendido en todo el curso y consiste en diseñar y crear tu base de datos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- SECCION FOOTER -->
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Roberto Fernandez Caraballo. Todos los derechos reservados.</p>
+         <div class="redes">
+            <a href="https://www.instagram.com/robertofdez._/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/iru.iru.564/?locale=es_ES" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.tiktok.com/@robertofdez._" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="../rss.xml"><img width="50"  src="../fotos/rss.png" alt=""></a> 
+            <a href="../atom.xml"><img width="30" src="../fotos/aton.png" alt=""></a>
+      </div>
+     </footer>
+
+    <script src="../java/javaindex.js"></script>
+</body>
+
+</html>
